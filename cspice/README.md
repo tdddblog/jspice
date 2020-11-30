@@ -19,7 +19,7 @@ file from NAIF web site (PC_Cygwin_GCC_64bit version).
 ```
 cmake -DUSE_MINGW=ON -G "MinGW Makefiles" ..\cspice
 ```
-* Make sure there were no errors and <b>Makefile</b> was genrated.
+* Make sure there were no errors and <b>Makefile</b> was generated.
 * Run MinGW make
 ```
 mingw32-make.exe -j4
@@ -47,7 +47,7 @@ file from NAIF web site (PC_Linux_GCC_64bit version).
 ```
 cmake ../cspice
 ```
-* Make sure there were no errors and <b>Makefile</b> was genrated.
+* Make sure there were no errors and <b>Makefile</b> was generated.
 * Run make
 ```
 make -j4
